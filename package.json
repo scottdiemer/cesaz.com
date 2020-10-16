@@ -1,0 +1,17 @@
+{
+    "name": "cesaz.com",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+        "build": "postcss css/styles.css -o public/build/styles.css"
+    },
+    "keywords": [],
+    "author": "Scott Diemer",
+    "license": "ISC",
+    "dependencies": {
+        "autoprefixer": "^9.0.0",
+        "postcss-cli": "^8.1.0",
+        "tailwindcss": "^1.9.2"
+    }
+}
